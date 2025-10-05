@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style>
+div{
+		width:100px;
+		height:100px;
+		background:yellow;
+		transition:width 2s;
+		
+}
+		#div1{
+			transition-timing-function:linear;
+}
+		#div2{
+			transition-timing-function:ease;
+}
+		
+		#div3{
+			transition-timing-function:ease-in;
+}
+		
+		#div4{
+			transition-timing-function:ease-out;
+}
+		
+		#div5{
+			transition-timing-function:ease-in-out;
+}
+		div:hover{
+			width:300px;
+}	
+
+</style>
+</head>
+
+<body>
+<div id="d1">linear</div><br>
+<div id="d2">ease</div><br>
+<div id="d3">ease-in</div><br>
+<div id="d4">ease-out</div><br>
+<div id="d5">ease-in-out</div><br>
+</body>
+</html>
