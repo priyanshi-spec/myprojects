@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<script>
+function test()
+{
+var a,b,c;
+a=parseInt(document.getElementById("t1").value);
+b=parseInt(document.getElementById("t2").value);
+c=parseInt(document.getElementById("t3").value);
+if(a>b&&a>c)
+document.writeln("greater no is",+a);
+else
+if(b>c)
+document.writeln("greater no is",+b);
+else
+document.writeln("greater no is",+c);
+}
+</script>
+</head>
+<body>
+enter first number<input id="t1"><br>
+enter second number<input id="t2"><br>
+enter third number<input id="t3"><br>
+<button onclick="test()">check</button>
+</body>
+</html>
