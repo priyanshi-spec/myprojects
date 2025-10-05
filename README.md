@@ -1,2 +1,2 @@
 # myprojects
-my personal projects with little mind
+Crafting web experiences with clean code and creative design
