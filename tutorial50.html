@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script src="jquery.min.js"></script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("p").hide("slow",function()
+{
+alert("the paragraph is now hidden");
+});
+});
+});
+
+</script>
+</head>
+<body>
+<button>hide</button>
+<p>this is a paragraph with little content.</p>
+
+</body>
+</html>
