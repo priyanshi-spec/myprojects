@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script src="jquery.min.js"></script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("div").animate({
+left:'200px',
+opacity:'0.5',
+height:'150px',
+width:'150'
+
+});
+});
+});
+</script>
+</head>
+
+<body>
+<button>start animation</button>
+<div style="background-color:lightblue;height:100px;width:100px;position:absolute">
+</div>
+</body>
+</html>
